@@ -10,16 +10,16 @@ export default function Hero() {
 
     return (
         <div className="bg-blue-600">
-            <div className="max-w-7xl mx-auto pt-32 pb-20">
+            <div className="max-w-7xl mx-auto pt-32 pb-20 px-6 md:px-0">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>
                         <h1 className="text-white text-5xl md:text-6xl font-bold leading-tight mb-6">
                             Kelola Bisnis Lebih Mudah dengan Teknologi AI
                         </h1>
                         <p className="text-white text-xl mb-8">
-                        Solusi all-in-one untuk UMKM: pembukuan digital, inventory, dan finansial dalam satu aplikasi
+                        Solusi all-in-one: pembukuan digital, inventory, dan finansial dalam satu aplikasi
                         </p>
-                        <button className="bg-blue-400 text-white px-6 py-3 rounded-lg hover:bg-blue-500 transition-colors">
+                        <button className="bg-white text-blue-700 font-bold text-md px-12 py-3 rounded-lg hover:-translate-y-1 transition-transform duration-300">
                             Coba Dulu Yuk
                         </button>
 
